@@ -1,0 +1,39 @@
+
+#########Quiz 4 #########################
+
+##Download the file lifeexp2015 from Blackboard into your working directory.
+##I will have this file downloaded in my working directory, so do not worry about adding extra folder information.
+
+##Place a command to remove all variables from your environment at the very beginning of your script
+
+###Evaluate the dataset for missing data and for numerical data types.
+###Subset out categorical variables in the first 2 columns.
+
+###For each model, include the following:
+###a. Your final model regression equation (after you have deleted any outliers or made any transformations)
+###b. An interpretation of important output statistics from the final regression including:
+## your overall model test and whether it was statistically significant,
+## the R-squared/adjusted R squared in comments,
+## the results of the hypothesis test and an interpretation as to what it means.  
+
+#####c. Model diagnostics including statistics and visualizations:
+#- Assess linearity of each model
+#- Assess normality of residual distribution for each model
+#- Assess heteroskedasticity for each model
+#- Determine if there any outliers for each model?
+##if outliers are present, name the most problematic outlier row(s) found in the initial model assessment in the comments.
+##Removing outliers in one at a time, run the model with/without the most problematic outlier(s) to see if the model improves.
+##give a rationale for why you should keep the outliers or remove them from the interpretation of the model.
+#- Assess multicollinearity for each model if appropriate
+
+#### Model 1 - Multiple Regression
+##Considering only the continuous variables in the dataset, give the best prediction using multiple linear regression of Life.expectancy using Forward Selection, Backward Selection,
+## or Mixed Selection.
+
+### Model 2: Interaction
+##Examine whether an interaction between Income.composition.of.resources and HIV.AIDS has an effect on Life.expectancy.
+##Include any visualizations that helped you come to this conclusion.
+
+### Model 3: Transformation
+##Examine the relationship between GDP and life expectancy. Evaluate a nonlinear polynomial relationship of GDP that best predicts Life.expectancy
+##Include any visualizations that helped you come to this conclusion.
